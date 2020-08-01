@@ -204,7 +204,7 @@ function biggofunc() {
     let website1 = document.getElementById("one").innerHTML;
     let href1 = document.getElementById("one").href;
     let website2 = document.getElementById("two").innerHTML;
-    let href2 = document.getElementById("two").hred;
+    let href2 = document.getElementById("two").href;
     let website3 = document.getElementById("three").innerHTML;
     let href3 = document.getElementById("three").href;
     let website4 = document.getElementById("four").innerHTML;
@@ -451,6 +451,8 @@ if (queryString == "") {
   document.getElementById("eight").href = href8;
   document.getElementById("nine").innerHTML = website9;
   document.getElementById("nine").href = href9;
+  
+  
   document.getElementById("img1").src =  "http://icons.duckduckgo.com/ip1/" + website1 + ".ico";
   document.getElementById("img2").src =  "http://icons.duckduckgo.com/ip2/" + website2 + ".ico";
   document.getElementById("img3").src =  "http://icons.duckduckgo.com/ip3/" + website3 + ".ico";
