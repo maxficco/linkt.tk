@@ -451,15 +451,15 @@ if (queryString == "") {
   document.getElementById("eight").href = href8;
   document.getElementById("nine").innerHTML = website9;
   document.getElementById("nine").href = href9;
-  document.getElementById("img2").src =  "http://icons.duckduckgo.com/ip1/" + website1 + ".ico";
+  document.getElementById("img1").src =  "http://icons.duckduckgo.com/ip1/" + website1 + ".ico";
   document.getElementById("img2").src =  "http://icons.duckduckgo.com/ip2/" + website2 + ".ico";
-  document.getElementById("img2").src =  "http://icons.duckduckgo.com/ip3/" + website3 + ".ico";
-  document.getElementById("img2").src =  "http://icons.duckduckgo.com/ip4/" + website4 + ".ico";
-  document.getElementById("img2").src =  "http://icons.duckduckgo.com/ip5/" + website5 + ".ico";
-  document.getElementById("img2").src =  "http://icons.duckduckgo.com/ip6/" + website6 + ".ico";
-  document.getElementById("img2").src =  "http://icons.duckduckgo.com/ip7/" + website7 + ".ico";
-  document.getElementById("img2").src =  "http://icons.duckduckgo.com/ip8/" + website8 + ".ico";
-  document.getElementById("img2").src =  "http://icons.duckduckgo.com/ip9/" + website9 + ".ico";
+  document.getElementById("img3").src =  "http://icons.duckduckgo.com/ip3/" + website3 + ".ico";
+  document.getElementById("img4").src =  "http://icons.duckduckgo.com/ip4/" + website4 + ".ico";
+  document.getElementById("img5").src =  "http://icons.duckduckgo.com/ip5/" + website5 + ".ico";
+  document.getElementById("img6").src =  "http://icons.duckduckgo.com/ip6/" + website6 + ".ico";
+  document.getElementById("img7").src =  "http://icons.duckduckgo.com/ip7/" + website7 + ".ico";
+  document.getElementById("img8").src =  "http://icons.duckduckgo.com/ip8/" + website8 + ".ico";
+  document.getElementById("img9").src =  "http://icons.duckduckgo.com/ip9/" + website9 + ".ico";
   urlString =
     "https://linkt.tk?website1=" +
     website1 +
