@@ -461,50 +461,50 @@ function copyfunc() {
 const queryString = window.location.search;
 if (queryString == "") {
   // do nothing
-  if (localStorage.website1 == "undefined") { website1 = ""
-  } else {website1 = localStorage.website1;}
-  if (localStorage.href1 == "undefined") { href1 = ""
-  } else {href1 = localStorage.href1;}
+  if (localStorage.getItem("website1one") == "undefined") { website1 = ""
+  } else {website1 = localStorage.getItem("website1one");}
+  if (localStorage.getItem("href1one") == "undefined") { href1 = ""
+  } else {href1 = localStorage.getItem("href1one");}
   
-  if (localStorage.website2 == "undefined") { website2 = ""
-  } else { website2 = localStorage.website2;}
-  if (localStorage.href2 == "undefined") {  href2 = ""
-  } else { href2 = localStorage.href2;}
+  if (localStorage.getItem("website2two") == "undefined") { website2 = ""
+  } else { website2 = localStorage.getItem("website2two")}
+  if (localStorage.getItem("website2two") == "undefined") {  href2 = ""
+  } else { href2 = localStorage.getItem("website2two");}
   
-  if (localStorage.website3 == "undefined") { website3 = ""
-  } else { website3 = localStorage.website3;}
-  if (localStorage.href3 == "undefined") {  href3 = ""
-  } else { href3 = localStorage.href3;}
+  if (localStorage.getItem("website3three") == "undefined") { website3 = ""
+  } else { website3 = localStorage.getItem("website3three");}
+  if (localStorage.getItem("href3three") == "undefined") {  href3 = ""
+  } else { href3 = localStorage.getItem("href3three");}
   
-  if (localStorage.website4 == "undefined") { website4 = ""
-  } else { website4 = localStorage.website4;}
-  if (localStorage.href4 == "undefined") {  href4 = ""
-  } else { href4 = localStorage.href4;}
+  if (localStorage.getItem("website4four") == "undefined") { website4 = ""
+  } else { website4 = localStorage.getItem("website4four")}
+  if (localStorage.getItem("href4four") == "undefined") {  href4 = ""
+  } else { href4 = localStorage.getItem("href4four");}
   
-  if (localStorage.website5 == "undefined") { website5 = ""
-  } else { website5 = localStorage.website5;}
-  if (localStorage.href5 == "undefined") {  href5 = ""
-  } else { href5 = localStorage.href5;}
+  if (localStorage.getItem("website5five") == "undefined") { website5 = ""
+  } else { website5 = localStorage.getItem("website5five");}
+  if (localStorage.getItem("href5five") == "undefined") {  href5 = ""
+  } else { href5 = localStorage.getItem("href5five");}
   
-  if (localStorage.website6 == "undefined") { website6 = ""
-  } else { website6 = localStorage.website6;}
-  if (localStorage.href6 == "undefined") {  href6 = ""
-  } else { href6 = localStorage.href6;}
+  if (localStorage.getItem("website6six") == "undefined") { website6 = ""
+  } else { website6 = localStorage.getItem("website6six");}
+  if (localStorage.getItem("href6six") == "undefined") {  href6 = ""
+  } else { href6 = localStorage.getItem("href6six");}
   
-  if (localStorage.website7 == "undefined") { website7 = ""
-  } else { website7 = localStorage.website7;}
-  if (localStorage.href7 == "undefined") {  href7 = ""
-  } else { href7 = localStorage.href7;}
+  if (localStorage.getItem("website7seven") == "undefined") { website7 = ""
+  } else { website7 = localStorage.getItem("website7seven");}
+  if (localStorage.getItem("href7seven") == "undefined") {  href7 = ""
+  } else { href7 = localStorage.getItem("href7seven");}
   
-  if (localStorage.website8 == "undefined") { website8 = ""
-  } else { website8 = localStorage.website8;}
-  if (localStorage.href8 == "undefined") {  href8 = ""
-  } else { href8 = localStorage.href8;}
+  if (localStorage.getItem("website8eight") == "undefined") { website8 = ""
+  } else { website8 = localStorage.getItem("website8eight");}
+  if (localStorage.getItem("href8eight") == "undefined") {  href8 = ""
+  } else { href8 = localStorage.getItem("href8eight");}
   
-  if (localStorage.website9 == "undefined") { website9 = ""
-  } else { website9 = localStorage.website9;}
-  if (localStorage.href9 == "undefined") {  href9 = ""
-  } else { href9 = localStorage.href9;}
+  if (localStorage.getItem("website9nine") == "undefined") { website9 = ""
+  } else { website9 = localStorage.getItem("website9nine");}
+  if (localStorage.getItem("href9nine") == "undefined") {  href9 = ""
+  } else { href9 = localStorage.getItem("href9nine");}
 
   
   
