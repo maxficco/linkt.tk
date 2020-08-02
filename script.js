@@ -224,40 +224,40 @@ function biggofunc() {
     }
     website1 = document.getElementById("one").innerHTML;
     href1 = document.getElementById("one").href;
-    localStorage.website1 = website1
-    localStorage.href1 = href1
+    localStorage.setItem("website1one", website1);
+    localStorage.setItem("href1one", href1);
     website2 = document.getElementById("two").innerHTML;
     href2 = document.getElementById("two").href;
-    localStorage.website2 = website2
-    localStorage.href2 = href2
+    localStorage.setItem("website2two", website2);
+    localStorage.setItem("href2two", href2);
     website3 = document.getElementById("three").innerHTML;
     href3 = document.getElementById("three").href;
-    localStorage.website3 = website3
-    localStorage.href3 = href3
+    localStorage.setItem("website3three", website3);
+    localStorage.setItem("href3three", href3);
     website4 = document.getElementById("four").innerHTML;
     href4 = document.getElementById("four").href;
-    localStorage.website4 = website4
-    localStorage.href4 = href4
+    localStorage.setItem("website4four", website4);
+    localStorage.setItem("href4four", href4);
     website5 = document.getElementById("five").innerHTML;
     href5 = document.getElementById("five").href;
-    localStorage.website5 = website5
-    localStorage.href5 = href5
+    localStorage.setItem("website5five", website5);
+    localStorage.setItem("href5five", href5);
     website6 = document.getElementById("six").innerHTML;
     href6 = document.getElementById("six").href;
-    localStorage.website6 = website6
-    localStorage.href6 = href6
+    localStorage.setItem("website6six", website6);
+    localStorage.setItem("href6six", href6);
     website7 = document.getElementById("seven").innerHTML;
     href7 = document.getElementById("seven").href;
-    localStorage.website7 = website7
-    localStorage.href7 = href7
+    localStorage.setItem("website7seven", website7);
+    localStorage.setItem("href7seven", href7);
     website8 = document.getElementById("eight").innerHTML;
     href8 = document.getElementById("eight").href;
-    localStorage.website8 = website8
-    localStorage.href8 = href8
+    localStorage.setItem("website8eight", website8);
+    localStorage.setItem("href8eight", href8);
     website9 = document.getElementById("nine").innerHTML;
     href9 = document.getElementById("nine").href;
-    localStorage.website9 = website9
-    localStorage.href9 = href9
+    localStorage.setItem("website9nine", website9);
+    localStorage.setItem("href9nine", href9);
     console.log(localStorage.website1);
     console.log(localStorage.href1);
     let urlString =
