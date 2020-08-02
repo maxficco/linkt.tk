@@ -203,22 +203,40 @@ function biggofunc() {
     }
     let website1 = document.getElementById("one").innerHTML;
     let href1 = document.getElementById("one").href;
+    localStorage.website1 = website1
+    localStorage.href1 = href1
     let website2 = document.getElementById("two").innerHTML;
     let href2 = document.getElementById("two").href;
+    localStorage.website2 = website2
+    localStorage.href2 = href2
     let website3 = document.getElementById("three").innerHTML;
     let href3 = document.getElementById("three").href;
+    localStorage.website3 = website3
+    localStorage.href3 = href3
     let website4 = document.getElementById("four").innerHTML;
     let href4 = document.getElementById("four").href;
+    localStorage.website4 = website4
+    localStorage.href4 = href4
     let website5 = document.getElementById("five").innerHTML;
     let href5 = document.getElementById("five").href;
+    localStorage.website5 = website5
+    localStorage.href5 = href5
     let website6 = document.getElementById("six").innerHTML;
     let href6 = document.getElementById("six").href;
+    localStorage.website6 = website6
+    localStorage.href6 = href6
     let website7 = document.getElementById("seven").innerHTML;
     let href7 = document.getElementById("seven").href;
+    localStorage.website7 = website7
+    localStorage.href7 = href7
     let website8 = document.getElementById("eight").innerHTML;
     let href8 = document.getElementById("eight").href;
+    localStorage.website8 = website8
+    localStorage.href8 = href8
     let website9 = document.getElementById("nine").innerHTML;
     let href9 = document.getElementById("nine").href;
+    localStorage.website9 = website9
+    localStorage.href9 = href9
     let urlString =
       "https://linkt.tk?website1=" +
       website1 +
@@ -262,7 +280,6 @@ function biggofunc() {
     alert("Please Enter A Valid URL!");
   }
 }
-let person;
 
 function delet() {
   document.getElementById("b1").style.display = "inline";
@@ -413,6 +430,120 @@ function copyfunc() {
 const queryString = window.location.search;
 if (queryString == "") {
   // do nothing
+  let website1 = localStorage.website1;
+  let website2 = localStorage.website2;
+  let website3 = localStorage.website3;
+  let website4 = localStorage.website4;
+  let website5 = localStorage.website5;
+  let website6 = localStorage.website6;
+  let website7 = localStorage.website7;
+  let website8 = localStorage.website8;
+  let website9 = localStorage.website9;
+  let href1 = localStorage.href1;
+  let href2 = localStorage.href2;
+  let href3 = localStorage.href3;
+  let href4 = localStorage.href4;
+  let href5 = localStorage.href5;
+  let href6 = localStorage.href6;
+  let href7 = localStorage.href7;
+  let href8 = localStorage.href8;
+  let href9 = localStorage.href9;
+document.getElementById("one").innerHTML = website1;
+  document.getElementById("one").href = href1;
+  document.getElementById("two").innerHTML = website2;
+  document.getElementById("two").href = href2;
+  document.getElementById("three").innerHTML = website3;
+  document.getElementById("three").href = href3;
+  document.getElementById("four").innerHTML = website4;
+  document.getElementById("four").href = href4;
+  document.getElementById("five").innerHTML = website5;
+  document.getElementById("five").href = href5;
+  document.getElementById("six").innerHTML = website6;
+  document.getElementById("six").href = href6;
+  document.getElementById("seven").innerHTML = website7;
+  document.getElementById("seven").href = href7;
+  document.getElementById("eight").innerHTML = website8;
+  document.getElementById("eight").href = href8;
+  document.getElementById("nine").innerHTML = website9;
+  document.getElementById("nine").href = href9;
+  
+  if (website1 == "") {
+  } else {
+  document.getElementById("img1").src =  "http://icons.duckduckgo.com/ip1/" + website1 + ".ico";
+  }
+  if (website2 == "") {
+  } else {
+  document.getElementById("img1").src =  "http://icons.duckduckgo.com/ip1/" + website2 + ".ico";
+  }
+  if (website3 == "") {
+  } else {
+  document.getElementById("img1").src =  "http://icons.duckduckgo.com/ip1/" + website3 + ".ico";
+  }
+  if (website4 == "") {
+  } else {
+  document.getElementById("img1").src =  "http://icons.duckduckgo.com/ip1/" + website4 + ".ico";
+  }
+  if (website5 == "") {
+  } else {
+  document.getElementById("img1").src =  "http://icons.duckduckgo.com/ip1/" + website5 + ".ico";
+  }
+  if (website6 == "") {
+  } else {
+  document.getElementById("img1").src =  "http://icons.duckduckgo.com/ip1/" + website6 + ".ico";
+  }
+  if (website7 == "") {
+  } else {
+  document.getElementById("img1").src =  "http://icons.duckduckgo.com/ip1/" + website7 + ".ico";
+  }
+  if (website8 == "") {
+  } else {
+  document.getElementById("img1").src =  "http://icons.duckduckgo.com/ip1/" + website8 + ".ico";
+  }
+  if (website9 == "") {
+  } else {
+  document.getElementById("img1").src =  "http://icons.duckduckgo.com/ip1/" + website9 + ".ico";
+  }
+  
+  urlString =
+    "https://linkt.tk?website1=" +
+    website1 +
+    "&href1=" +
+    href1 +
+    "&website2=" +
+    website2 +
+    "&href2=" +
+    href2 +
+    "&website3=" +
+    website3 +
+    "&href3=" +
+    href3 +
+    "&website4=" +
+    website4 +
+    "&href4=" +
+    href4 +
+    "&website5=" +
+    website5 +
+    "&href5=" +
+    href5 +
+    "&website6=" +
+    website6 +
+    "&href6=" +
+    href6 +
+    "&website7=" +
+    website7 +
+    "&href7=" +
+    href7 +
+    "&website8=" +
+    website8 +
+    "&href8=" +
+    href8 +
+    "&website9=" +
+    website9 +
+    "&href9=" +
+    href9;
+  console.log(urlString);
+  document.getElementById("hide").innerHTML = urlString;
+
 } else {
   const urlParams = new URLSearchParams(queryString);
   let website1 = urlParams.get("website1");
