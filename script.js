@@ -461,6 +461,7 @@ function copyfunc() {
 const queryString = window.location.search;
 if (queryString == "") {
   // do nothing
+  document.getElementById("deletebutton").style.opacity = 1;
   if (localStorage.getItem("website1one") == "undefined") { website1 = ""
   } else {website1 = localStorage.getItem("website1one");}
   if (localStorage.getItem("href1one") == "undefined") { href1 = ""
