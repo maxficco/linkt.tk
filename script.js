@@ -430,24 +430,45 @@ function copyfunc() {
 const queryString = window.location.search;
 if (queryString == "") {
   // do nothing
-  let website1 = localStorage.website1;
-  let website2 = localStorage.website2;
-  let website3 = localStorage.website3;
-  let website4 = localStorage.website4;
-  let website5 = localStorage.website5;
-  let website6 = localStorage.website6;
-  let website7 = localStorage.website7;
-  let website8 = localStorage.website8;
-  let website9 = localStorage.website9;
-  let href1 = localStorage.href1;
-  let href2 = localStorage.href2;
-  let href3 = localStorage.href3;
-  let href4 = localStorage.href4;
-  let href5 = localStorage.href5;
-  let href6 = localStorage.href6;
-  let href7 = localStorage.href7;
-  let href8 = localStorage.href8;
-  let href9 = localStorage.href9;
+  if (localStorage.website1 == "undefined") { let website1 = ""
+  } else {let website1 = localStorage.website1;}
+  if (localStorage.href1 == "undefined") { let href1 = ""
+  } else {let href1 = localStorage.href1;}
+  if (localStorage.website2 == "undefined") {let website2 = ""
+  } else {let website2 = localStorage.website2;}
+  if (localStorage.href2 == "undefined") { let href2 = ""
+  } else {let href2 = localStorage.href2;}
+  if (localStorage.website3 == "undefined") {let website3 = ""
+  } else {let website3 = localStorage.website3;}
+  if (localStorage.href3 == "undefined") { let href3 = ""
+  } else {let href3 = localStorage.href3;}
+  if (localStorage.website4 == "undefined") {let website4 = ""
+  } else {let website4 = localStorage.website4;}
+  if (localStorage.href4 == "undefined") { let href4 = ""
+  } else {let href4 = localStorage.href4;}
+  if (localStorage.website5 == "undefined") {let website5 = ""
+  } else {let website5 = localStorage.website5;}
+  if (localStorage.href5 == "undefined") { let href5 = ""
+  } else {let href5 = localStorage.href5;}
+  if (localStorage.website6 == "undefined") {let website6 = ""
+  } else {let website6 = localStorage.website6;}
+  if (localStorage.href6 == "undefined") { let href6 = ""
+  } else {let href6 = localStorage.href6;}
+  if (localStorage.website7 == "undefined") {let website7 = ""
+  } else {let website7 = localStorage.website7;}
+  if (localStorage.href7 == "undefined") { let href7 = ""
+  } else {let href7 = localStorage.href7;}
+  if (localStorage.website8 == "undefined") {let website8 = ""
+  } else {let website8 = localStorage.website8;}
+  if (localStorage.href8 == "undefined") { let href8 = ""
+  } else {let href8 = localStorage.href8;}
+  if (localStorage.website9 == "undefined") {let website9 = ""
+  } else {let website9 = localStorage.website9;}
+  if (localStorage.href9 == "undefined") { let href9 = ""
+  } else {let href9 = localStorage.href9;}
+  
+  
+  
 document.getElementById("one").innerHTML = website1;
   document.getElementById("one").href = href1;
   document.getElementById("two").innerHTML = website2;
