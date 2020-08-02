@@ -182,41 +182,49 @@ function biggofunc() {
     } else if (document.getElementById("two").innerHTML == "") {
       document.getElementById("two").innerHTML = myurlname;
       document.getElementById("two").href = myurl;
+      document.getElementById("deletebutton").style.opacity = 1;
       document.getElementById("img2").src =
         "http://icons.duckduckgo.com/ip2/" + myurlname + ".ico";
     } else if (document.getElementById("three").innerHTML == "") {
       document.getElementById("three").innerHTML = myurlname;
       document.getElementById("three").href = myurl;
+      document.getElementById("deletebutton").style.opacity = 1;
       document.getElementById("img3").src =
         "http://icons.duckduckgo.com/ip2/" + myurlname + ".ico";
     } else if (document.getElementById("four").innerHTML == "") {
       document.getElementById("four").innerHTML = myurlname;
       document.getElementById("four").href = myurl;
+      document.getElementById("deletebutton").style.opacity = 1;
       document.getElementById("img4").src =
         "http://icons.duckduckgo.com/ip2/" + myurlname + ".ico";
     } else if (document.getElementById("five").innerHTML == "") {
       document.getElementById("five").innerHTML = myurlname;
       document.getElementById("five").href = myurl;
+      document.getElementById("deletebutton").style.opacity = 1;
       document.getElementById("img5").src =
         "http://icons.duckduckgo.com/ip2/" + myurlname + ".ico";
     } else if (document.getElementById("six").innerHTML == "") {
       document.getElementById("six").innerHTML = myurlname;
       document.getElementById("six").href = myurl;
+      document.getElementById("deletebutton").style.opacity = 1;
       document.getElementById("img6").src =
         "http://icons.duckduckgo.com/ip2/" + myurlname + ".ico";
     } else if (document.getElementById("seven").innerHTML == "") {
       document.getElementById("seven").innerHTML = myurlname;
       document.getElementById("seven").href = myurl;
+      document.getElementById("deletebutton").style.opacity = 1;
       document.getElementById("img7").src =
         "http://icons.duckduckgo.com/ip2/" + myurlname + ".ico";
     } else if (document.getElementById("eight").innerHTML == "") {
       document.getElementById("eight").innerHTML = myurlname;
       document.getElementById("eight").href = myurl;
+      document.getElementById("deletebutton").style.opacity = 1;
       document.getElementById("img8").src =
         "http://icons.duckduckgo.com/ip2/" + myurlname + ".ico";
     } else if (document.getElementById("nine").innerHTML == "") {
       document.getElementById("nine").innerHTML = myurlname;
       document.getElementById("nine").href = myurl;
+      document.getElementById("deletebutton").style.opacity = 1;
       document.getElementById("img9").src =
         "http://icons.duckduckgo.com/ip2/" + myurlname + ".ico";
     } else {
@@ -258,8 +266,8 @@ function biggofunc() {
     href9 = document.getElementById("nine").href;
     localStorage.setItem("website9nine", website9);
     localStorage.setItem("href9nine", href9);
-    console.log(localStorage.website1);
-    console.log(localStorage.href1);
+    console.log(localStorage.website1one);
+    console.log(localStorage.href1one);
     let urlString =
       "https://linkt.tk?website1=" +
       website1 +
