@@ -453,7 +453,7 @@ function copyfunc() {
 const queryString = window.location.search;
 if (queryString == "") {
   // do nothing
-  for (let finger=1; finger<10; finger++;) {
+  for (let finger=1; finger<10; finger++) {
   if (localStorage.website[finger] == "undefined") { website[finger] = ""
   } else {website[finger] = localStorage.website[finger];}
   if (localStorage.href[finger] == "undefined") { href[finger] = ""
