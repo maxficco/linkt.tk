@@ -453,52 +453,50 @@ function copyfunc() {
 const queryString = window.location.search;
 if (queryString == "") {
   // do nothing
-  for (let finger=1; finger<10; finger++) {
-  if (localStorage.website[finger] == "undefined") { website[finger] = ""
-  } else {website[finger] = localStorage.website[finger];}
-  if (localStorage.href[finger] == "undefined") { href[finger] = ""
-  } else {href[finger] = localStorage.href[finger];}
-  console.log(finger);
-  }
-  /*if (localStorage.website2 == "undefined") {let website2 = ""
-  } else {let website2 = localStorage.website2;}
-  if (localStorage.href2 == "undefined") { let href2 = ""
-  } else {let href2 = localStorage.href2;}
+  if (localStorage.website1 == "undefined") { website1 = ""
+  } else {website1 = localStorage.website1;}
+  if (localStorage.href1 == "undefined") { href1 = ""
+  } else {href1 = localStorage.href1;}
   
-  if (localStorage.website3 == "undefined") {let website3 = ""
-  } else {let website3 = localStorage.website3;}
-  if (localStorage.href3 == "undefined") { let href3 = ""
-  } else {let href3 = localStorage.href3;}
+  if (localStorage.website2 == "undefined") { website2 = ""
+  } else { website2 = localStorage.website2;}
+  if (localStorage.href2 == "undefined") {  href2 = ""
+  } else { href2 = localStorage.href2;}
   
-  if (localStorage.website4 == "undefined") {let website4 = ""
-  } else {let website4 = localStorage.website4;}
-  if (localStorage.href4 == "undefined") { let href4 = ""
-  } else {let href4 = localStorage.href4;}
+  if (localStorage.website3 == "undefined") { website3 = ""
+  } else { website3 = localStorage.website3;}
+  if (localStorage.href3 == "undefined") {  href3 = ""
+  } else { href3 = localStorage.href3;}
   
-  if (localStorage.website5 == "undefined") {let website5 = ""
-  } else {let website5 = localStorage.website5;}
-  if (localStorage.href5 == "undefined") { let href5 = ""
-  } else {let href5 = localStorage.href5;}
+  if (localStorage.website4 == "undefined") { website4 = ""
+  } else { website4 = localStorage.website4;}
+  if (localStorage.href4 == "undefined") {  href4 = ""
+  } else { href4 = localStorage.href4;}
   
-  if (localStorage.website6 == "undefined") {let website6 = ""
-  } else {let website6 = localStorage.website6;}
-  if (localStorage.href6 == "undefined") { let href6 = ""
-  } else {let href6 = localStorage.href6;}
+  if (localStorage.website5 == "undefined") { website5 = ""
+  } else { website5 = localStorage.website5;}
+  if (localStorage.href5 == "undefined") {  href5 = ""
+  } else { href5 = localStorage.href5;}
   
-  if (localStorage.website7 == "undefined") {let website7 = ""
-  } else {let website7 = localStorage.website7;}
-  if (localStorage.href7 == "undefined") { let href7 = ""
-  } else {let href7 = localStorage.href7;}
+  if (localStorage.website6 == "undefined") { website6 = ""
+  } else { website6 = localStorage.website6;}
+  if (localStorage.href6 == "undefined") {  href6 = ""
+  } else { href6 = localStorage.href6;}
   
-  if (localStorage.website8 == "undefined") {let website8 = ""
-  } else {let website8 = localStorage.website8;}
-  if (localStorage.href8 == "undefined") { let href8 = ""
-  } else {let href8 = localStorage.href8;}
+  if (localStorage.website7 == "undefined") { website7 = ""
+  } else { website7 = localStorage.website7;}
+  if (localStorage.href7 == "undefined") {  href7 = ""
+  } else { href7 = localStorage.href7;}
   
-  if (localStorage.website9 == "undefined") {let website9 = ""
-  } else {let website9 = localStorage.website9;}
-  if (localStorage.href9 == "undefined") { let href9 = ""
-  } else {let href9 = localStorage.href9;}
+  if (localStorage.website8 == "undefined") { website8 = ""
+  } else { website8 = localStorage.website8;}
+  if (localStorage.href8 == "undefined") {  href8 = ""
+  } else { href8 = localStorage.href8;}
+  
+  if (localStorage.website9 == "undefined") { website9 = ""
+  } else { website9 = localStorage.website9;}
+  if (localStorage.href9 == "undefined") {  href9 = ""
+  } else { href9 = localStorage.href9;}
   */
   
   
