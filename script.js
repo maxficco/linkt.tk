@@ -453,12 +453,12 @@ function copyfunc() {
 const queryString = window.location.search;
 if (queryString == "") {
   // do nothing
-  for (let i=1, i<10, i++) {
-  if (localStorage.website[i] == "undefined") { website[i] = ""
-  } else {website[i] = localStorage.website[i];}
-  if (localStorage.href[i] == "undefined") { href[i] = ""
-  } else {href[i] = localStorage.href[i];}
-  console.log(i);
+  for (let m=1, m<10, m++) {
+  if (localStorage.website[m] == "undefined") { website[m] = ""
+  } else {website[m] = localStorage.website[m];}
+  if (localStorage.href[m] == "undefined") { href[m] = ""
+  } else {href[m] = localStorage.href[m];}
+  console.log(m);
   }
   /*if (localStorage.website2 == "undefined") {let website2 = ""
   } else {let website2 = localStorage.website2;}
