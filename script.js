@@ -65,10 +65,10 @@ var e = 0;
 var f = 0;
 
 var txt = "your save link:";
-var txt1 = "$ linkt.tk: a custom taskbar for saving website urls!";
+var txt1 = "$ linkt.tk: a custom taskbar for saving website links!";
 var txt2 = "$ made by: max ficco 07-2020";
-var txt3 = "$ how to use: ↓ enter your website's url and click the button! ↓";
-var txt4 = "$ to share: ↓ click the other button ↓";
+var txt3 = "$ how to use: ↓ enter your favorite websites and click the button! ↓";
+var txt4 = "$ to share: ↓ click the other button! ↓";
 var txt5 = "more projects: ";
 var txt6 = "github: ";
 var speed = 40;
@@ -128,9 +128,9 @@ function gogogo() {
   setTimeout(type2, 3000);
   setTimeout(type3, 5000);
   setTimeout(type4, 8000);
-  setTimeout(type5, 11000);
-  setTimeout(type6, 11000);
-  setTimeout(type, 11000);
+  setTimeout(type5, 10000);
+  setTimeout(type6, 10000);
+  setTimeout(type, 10000);
 }
 
 gogogo();
@@ -607,6 +607,7 @@ document.getElementById("one").innerHTML = website1;
 
 } else {
   const urlParams = new URLSearchParams(queryString);
+  document.getElementById("deletebutton").style.opacity = 1;
   let website1 = urlParams.get("website1");
   let href1 = urlParams.get("href1");
   let website2 = urlParams.get("website2");
