@@ -1,3 +1,24 @@
+let website1;
+let website2;
+let website3;
+let website4;
+let website5;
+let website6;
+let website7;
+let website8;
+let website9;
+let href1;
+let href2;
+let href3;
+let href4;
+let href5;
+let href6;
+let href7;
+let href8;
+let href9;
+
+
+
 let urlString;
 var myVar = setInterval(myTimer, 900);
 //setTimeout(function( ) { clearInterval( myVar ); }, 5000);
@@ -201,40 +222,40 @@ function biggofunc() {
     } else {
       alert("You Have Reached the Maximum Amount of Links!");
     }
-    let website1 = document.getElementById("one").innerHTML;
-    let href1 = document.getElementById("one").href;
+    website1 = document.getElementById("one").innerHTML;
+    href1 = document.getElementById("one").href;
     localStorage.website1 = website1
     localStorage.href1 = href1
-    let website2 = document.getElementById("two").innerHTML;
-    let href2 = document.getElementById("two").href;
+    website2 = document.getElementById("two").innerHTML;
+    href2 = document.getElementById("two").href;
     localStorage.website2 = website2
     localStorage.href2 = href2
-    let website3 = document.getElementById("three").innerHTML;
-    let href3 = document.getElementById("three").href;
+    website3 = document.getElementById("three").innerHTML;
+    href3 = document.getElementById("three").href;
     localStorage.website3 = website3
     localStorage.href3 = href3
-    let website4 = document.getElementById("four").innerHTML;
-    let href4 = document.getElementById("four").href;
+    website4 = document.getElementById("four").innerHTML;
+    href4 = document.getElementById("four").href;
     localStorage.website4 = website4
     localStorage.href4 = href4
-    let website5 = document.getElementById("five").innerHTML;
-    let href5 = document.getElementById("five").href;
+    website5 = document.getElementById("five").innerHTML;
+    href5 = document.getElementById("five").href;
     localStorage.website5 = website5
     localStorage.href5 = href5
-    let website6 = document.getElementById("six").innerHTML;
-    let href6 = document.getElementById("six").href;
+    website6 = document.getElementById("six").innerHTML;
+    href6 = document.getElementById("six").href;
     localStorage.website6 = website6
     localStorage.href6 = href6
-    let website7 = document.getElementById("seven").innerHTML;
-    let href7 = document.getElementById("seven").href;
+    website7 = document.getElementById("seven").innerHTML;
+    href7 = document.getElementById("seven").href;
     localStorage.website7 = website7
     localStorage.href7 = href7
-    let website8 = document.getElementById("eight").innerHTML;
-    let href8 = document.getElementById("eight").href;
+    website8 = document.getElementById("eight").innerHTML;
+    href8 = document.getElementById("eight").href;
     localStorage.website8 = website8
     localStorage.href8 = href8
-    let website9 = document.getElementById("nine").innerHTML;
-    let href9 = document.getElementById("nine").href;
+    website9 = document.getElementById("nine").innerHTML;
+    href9 = document.getElementById("nine").href;
     localStorage.website9 = website9
     localStorage.href9 = href9
     console.log(localStorage.website1);
@@ -432,12 +453,14 @@ function copyfunc() {
 const queryString = window.location.search;
 if (queryString == "") {
   // do nothing
-  if (localStorage.website1 == "undefined") { let website1 = ""
-  } else {let website1 = localStorage.website1;}
-  if (localStorage.href1 == "undefined") { let href1 = ""
-  } else {let href1 = localStorage.href1;}
-  
-  if (localStorage.website2 == "undefined") {let website2 = ""
+  for (let i=1, i<10, i++) {
+  if (localStorage.website[i] == "undefined") { website[i] = ""
+  } else {website[i] = localStorage.website[i];}
+  if (localStorage.href[i] == "undefined") { href[i] = ""
+  } else {href[i] = localStorage.href[i];}
+  console.log(i);
+  }
+  /*if (localStorage.website2 == "undefined") {let website2 = ""
   } else {let website2 = localStorage.website2;}
   if (localStorage.href2 == "undefined") { let href2 = ""
   } else {let href2 = localStorage.href2;}
@@ -476,7 +499,7 @@ if (queryString == "") {
   } else {let website9 = localStorage.website9;}
   if (localStorage.href9 == "undefined") { let href9 = ""
   } else {let href9 = localStorage.href9;}
-  
+  */
   
   
 document.getElementById("one").innerHTML = website1;
