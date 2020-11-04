@@ -455,6 +455,7 @@ function copyfunc() {
 }
 
 const queryString = window.location.search;
+console.log(queryString);
 if (queryString == "") {
   // do nothing
   document.getElementById("deletebutton").style.opacity = 1;
