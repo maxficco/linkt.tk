@@ -16,12 +16,9 @@ let href6;
 let href7;
 let href8;
 let href9;
-
-
-
 let urlString;
+
 var myVar = setInterval(myTimer, 900);
-//setTimeout(function( ) { clearInterval( myVar ); }, 5000);
 function myTimer() {
   if (document.getElementById("test").innerHTML == "_") {
     document.getElementById("test").innerHTML = "   ";
@@ -31,7 +28,6 @@ function myTimer() {
 }
 
 var myVar2 = setInterval(myTimer2, 900);
-//setTimeout(function( ) { clearInterval( myVar2 ); }, 11000);
 
 function myTimer2() {
   if (document.getElementById("test2").innerHTML == "_") {
@@ -42,7 +38,7 @@ function myTimer2() {
 }
 
 var myVar3 = setInterval(myTimer3, 900);
-//setTimeout(function( ) { clearInterval( myVar3 ); }, 11000);
+
 
 function myTimer3() {
   if (document.getElementById("test3").innerHTML == ".") {
@@ -509,7 +505,7 @@ if (queryString == "") {
 
   
   
-document.getElementById("one").innerHTML = website1;
+  document.getElementById("one").innerHTML = website1;
   document.getElementById("one").href = href1;
   document.getElementById("two").innerHTML = website2;
   document.getElementById("two").href = href2;
@@ -605,7 +601,7 @@ document.getElementById("one").innerHTML = website1;
   console.log(urlString);
   document.getElementById("hide").innerHTML = urlString;
 
-} else {
+} else if (queryString != "website1=null&href1=null&website2=null&href2=null&website3=null&href3=null&website4=null&href4=null&website5=null&href5=null&website6=null&href6=null&website7=null&href7=null&website8=null&href8=null&website9=null&href9=null") {
   const urlParams = new URLSearchParams(queryString);
   document.getElementById("deletebutton").style.opacity = 1;
   let website1 = urlParams.get("website1");
