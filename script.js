@@ -525,39 +525,39 @@ if (queryString == "") {
   document.getElementById("nine").innerHTML = website9;
   document.getElementById("nine").href = href9;
   
-  if (website1 == null) {
+  if (website1 == null || website1 == "") {
   } else {
   document.getElementById("img1").src =  "http://icons.duckduckgo.com/ip1/" + website1 + ".ico";
   }
-  if (website2 == null) {
+  if (website2 == null || website2 == "") {
   } else {
   document.getElementById("img2").src =  "http://icons.duckduckgo.com/ip1/" + website2 + ".ico";
   }
-  if (website3 == null) {
+  if (website3 == null || website3 == "") {
   } else {
   document.getElementById("img3").src =  "http://icons.duckduckgo.com/ip1/" + website3 + ".ico";
   }
-  if (website4 == null) {
+  if (website4 == null || website4 == "") {
   } else {
   document.getElementById("img4").src =  "http://icons.duckduckgo.com/ip1/" + website4 + ".ico";
   }
-  if (website5 == null) {
+  if (website5 == null || website5 == "") {
   } else {
   document.getElementById("img5").src =  "http://icons.duckduckgo.com/ip1/" + website5 + ".ico";
   }
-  if (website6 == null) {
+  if (website6 == null || website6 == "") {
   } else {
   document.getElementById("img6").src =  "http://icons.duckduckgo.com/ip1/" + website6 + ".ico";
   }
-  if (website7 == null) {
+  if (website7 == null || website7 == "") {
   } else {
   document.getElementById("img7").src =  "http://icons.duckduckgo.com/ip1/" + website7 + ".ico";
   }
-  if (website8 == null) {
+  if (website8 == null || website8 == "") {
   } else {
   document.getElementById("img8").src =  "http://icons.duckduckgo.com/ip1/" + website8 + ".ico";
   }
-  if (website9 == null) {
+  if (website9 == null || website9 == "") {
   } else {
   document.getElementById("img9").src =  "http://icons.duckduckgo.com/ip1/" + website9 + ".ico";
   }
