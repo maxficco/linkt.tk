@@ -525,39 +525,39 @@ if (queryString == "") {
   document.getElementById("nine").innerHTML = website9;
   document.getElementById("nine").href = href9;
   
-  if (website1 == "") {
+  if (website1 == null) {
   } else {
   document.getElementById("img1").src =  "http://icons.duckduckgo.com/ip1/" + website1 + ".ico";
   }
-  if (website2 == "") {
+  if (website2 == null) {
   } else {
   document.getElementById("img2").src =  "http://icons.duckduckgo.com/ip1/" + website2 + ".ico";
   }
-  if (website3 == "") {
+  if (website3 == null) {
   } else {
   document.getElementById("img3").src =  "http://icons.duckduckgo.com/ip1/" + website3 + ".ico";
   }
-  if (website4 == "") {
+  if (website4 == null) {
   } else {
   document.getElementById("img4").src =  "http://icons.duckduckgo.com/ip1/" + website4 + ".ico";
   }
-  if (website5 == "") {
+  if (website5 == null) {
   } else {
   document.getElementById("img5").src =  "http://icons.duckduckgo.com/ip1/" + website5 + ".ico";
   }
-  if (website6 == "") {
+  if (website6 == null) {
   } else {
   document.getElementById("img6").src =  "http://icons.duckduckgo.com/ip1/" + website6 + ".ico";
   }
-  if (website7 == "") {
+  if (website7 == null) {
   } else {
   document.getElementById("img7").src =  "http://icons.duckduckgo.com/ip1/" + website7 + ".ico";
   }
-  if (website8 == "") {
+  if (website8 == null) {
   } else {
   document.getElementById("img8").src =  "http://icons.duckduckgo.com/ip1/" + website8 + ".ico";
   }
-  if (website9 == "") {
+  if (website9 == null) {
   } else {
   document.getElementById("img9").src =  "http://icons.duckduckgo.com/ip1/" + website9 + ".ico";
   }
@@ -602,7 +602,7 @@ if (queryString == "") {
   console.log(urlString);
   document.getElementById("hide").innerHTML = urlString;
 
-} else if (queryString != "?website1=null&href1=null&website2=null&href2=null&website3=null&href3=null&website4=null&href4=null&website5=null&href5=null&website6=null&href6=null&website7=null&href7=null&website8=null&href8=null&website9=null&href9=null") {
+} else {
   const urlParams = new URLSearchParams(queryString);
   document.getElementById("deletebutton").style.opacity = 1;
   let website1 = urlParams.get("website1");
