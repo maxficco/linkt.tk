@@ -602,7 +602,7 @@ if (queryString == "") {
   console.log(urlString);
   document.getElementById("hide").innerHTML = urlString;
 
-} else if (queryString != "website1=null&href1=null&website2=null&href2=null&website3=null&href3=null&website4=null&href4=null&website5=null&href5=null&website6=null&href6=null&website7=null&href7=null&website8=null&href8=null&website9=null&href9=null") {
+} else if (queryString != "?website1=null&href1=null&website2=null&href2=null&website3=null&href3=null&website4=null&href4=null&website5=null&href5=null&website6=null&href6=null&website7=null&href7=null&website8=null&href8=null&website9=null&href9=null") {
   const urlParams = new URLSearchParams(queryString);
   document.getElementById("deletebutton").style.opacity = 1;
   let website1 = urlParams.get("website1");
